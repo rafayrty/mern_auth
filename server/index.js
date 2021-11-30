@@ -9,6 +9,7 @@ const cors = require('cors')
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://127.0.0.1:27017/first-mern')
+ 
 
 app.use(cors())
 app.use(express.json());
